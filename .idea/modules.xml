@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../GZ_travelTime/.idea/GZ_travelTime.iml" filepath="$PROJECT_DIR$/../GZ_travelTime/.idea/GZ_travelTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kdd/.idea/kdd.iml" filepath="$PROJECT_DIR$/../kdd/.idea/kdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tf/.idea/tf.iml" filepath="$PROJECT_DIR$/../tf/.idea/tf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/untitled1.iml" filepath="$PROJECT_DIR$/.idea/untitled1.iml" />
+    </modules>
+  </component>
+</project>
