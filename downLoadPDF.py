@@ -11,12 +11,18 @@ soup=BeautifulSoup(content,"html.parser")
 html = soup.find_all(href=re.compile("http://.*17[a-z].pdf"))
 title = soup.find_all("p","title")
 cnt = 1
-for i in range(len(html)):
-    name = str(title[i].string).replace(":","_").replace(",","_").replace("?","")
-    print(name)
+for i in range(65,len(html)):
+    try:
+        name = str(title[i].string).replace(":","_").replace(",","_").replace("?","")
+    except:
+        name = str(i)
+    # print(name)
     pdf_ulr = html[i]['href']
-    print(pdf_ulr)
-    f = open(path+name+".pdf", 'wb')
+    # print(pdf_ulr)
+    try:
+        f = open(path+name+".pdf", 'wb')
+    except IOError:
+        f = open(path+"%d.pdf"%cnt,'wb')
     pdf = urllib.urlopen(pdf_ulr)
     f.write(pdf.read())
     f.close()
