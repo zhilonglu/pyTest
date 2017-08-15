@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../GZ_travelTime/.idea/GZ_travelTime.iml" filepath="$PROJECT_DIR$/../GZ_travelTime/.idea/GZ_travelTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Mobike/.idea/Mobike.iml" filepath="$PROJECT_DIR$/../Mobike/.idea/Mobike.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SomeCompetition/.idea/SomeCompetition.iml" filepath="$PROJECT_DIR$/../SomeCompetition/.idea/SomeCompetition.iml" />
       <module fileurl="file://$PROJECT_DIR$/../kdd/.idea/kdd.iml" filepath="$PROJECT_DIR$/../kdd/.idea/kdd.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tf/.idea/tf.iml" filepath="$PROJECT_DIR$/../tf/.idea/tf.iml" />
